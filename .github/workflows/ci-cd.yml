@@ -41,7 +41,7 @@ jobs:
       contents: read
       packages: write
     env:
-      IMAGE: ghcr.io/hexedsdev/redes-cicd
+      IMAGE: ghcr.io/moonryx/redes-cicd
     steps:
       - name: Obtener codigo
         uses: actions/checkout@v6

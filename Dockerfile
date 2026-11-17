@@ -1,5 +1,5 @@
 FROM nginx:stable-alpine
-LABEL org.opencontainers.image.source="https://github.com/HexedsDev/redes-cicd"
+LABEL org.opencontainers.image.source="https://github.com/moonryx/redes-cicd"
 LABEL org.opencontainers.image.description="Practica de Redes"
 COPY site/ /usr/share/nginx/html/
 EXPOSE 80
